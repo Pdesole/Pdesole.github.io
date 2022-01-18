@@ -40,11 +40,16 @@ h1 {
     margin-left: -6%;
 }
 
+.r6 {
+    margin-left: -4.5%;
+    margin-top: 1%;
+}
+
 #conteneur10 {
 
     display: flex;
     justify-content: center;
-    margin-top: -30%;
+    margin-top: -40%;
     justify-content: space-around;
     flex-direction: column;
     align-items: center;
@@ -155,6 +160,33 @@ h1 {
   @keyframes load4 {
     0% { width: 0; }
     100% { width: 30%; }
+  }
+
+  .progress5 {
+    background: rgba(255,255,255,0.1);
+    justify-content: flex-start;
+    border-radius: 100px;
+    align-items: center;
+    position: relative;
+    padding: 0 5px;
+    display: flex;
+    height: 40px;
+    width: 900px;
+    margin-top: 6%;
+  }
+  
+  .progress-value5 {
+    animation: load5 3s normal forwards;
+    box-shadow: 0 10px 40px -10px #fff;
+    border-radius: 100px;
+    background: #fff;
+    height: 30px;
+    width: 0;
+  }
+  
+  @keyframes load5 {
+    0% { width: 0; }
+    100% { width: 100%; }
   }
 
   #container5 {
