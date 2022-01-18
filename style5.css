@@ -1,0 +1,210 @@
+@font-face {
+    font-family: TextMeOne;
+    src: url("TextMeOne-Regular.ttf");
+  }
+
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: TextMeOne;
+}
+
+body {
+    background-image: url("image2/bg.png");
+}
+
+h1 {
+    font-family: TextMeOne;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 35px;
+    line-height: 73px;
+    text-align: center;
+    
+    color: #FFF;
+}
+
+#conteneur9 {
+
+    display: flex;
+    justify-content: left;
+    margin-top: 4%;
+    justify-content: space-around;
+    flex-direction: column;
+    margin-left: 10%;
+    margin-top: 4%;
+    
+}
+
+.htmlcss {
+    margin-left: -6%;
+}
+
+.r6 {
+    margin-left: -4.5%;
+    margin-top: 1%;
+}
+
+#conteneur10 {
+
+    display: flex;
+    justify-content: center;
+    margin-top: -40%;
+    justify-content: space-around;
+    flex-direction: column;
+    align-items: center;
+}
+
+.progress {
+    background: rgba(255,255,255,0.1);
+    justify-content: flex-start;
+    border-radius: 100px;
+    align-items: center;
+    position: relative;
+    padding: 0 5px;
+    display: flex;
+    height: 40px;
+    width: 900px;
+  }
+  
+  .progress-value {
+    animation: load1 3s normal forwards;
+    box-shadow: 0 10px 40px -10px #fff;
+    border-radius: 100px;
+    background: #00a9ff;
+    height: 30px;
+    width: 0;
+  }
+  
+  @keyframes load1 {
+    0% { width: 0; }
+    100% { width: 70%; }
+  }
+
+  .progress2 {
+    background: rgba(255,255,255,0.1);
+    justify-content: flex-start;
+    border-radius: 100px;
+    align-items: center;
+    position: relative;
+    padding: 0 5px;
+    display: flex;
+    height: 40px;
+    width: 900px;
+    margin-top: 4%;
+  }
+  
+  .progress-value2 {
+    animation: load2 3s normal forwards;
+    box-shadow: 0 10px 40px -10px #fff;
+    border-radius: 100px;
+    background: #FF9A00;
+    height: 30px;
+    width: 0;
+  }
+  
+  @keyframes load2 {
+    0% { width: 0; }
+    100% { width: 50%; }
+  }
+
+  .progress3 {
+    background: rgba(255,255,255,0.1);
+    justify-content: flex-start;
+    border-radius: 100px;
+    align-items: center;
+    position: relative;
+    padding: 0 5px;
+    display: flex;
+    height: 40px;
+    width: 900px;
+    margin-top: 6%;
+  }
+  
+  .progress-value3 {
+    animation: load3 3s normal forwards;
+    box-shadow: 0 10px 40px -10px #fff;
+    border-radius: 100px;
+    background: #E44F25;
+    height: 30px;
+    width: 0;
+  }
+  
+  @keyframes load3 {
+    0% { width: 0; }
+    100% { width: 50%; }
+  }
+
+  .progress4 {
+    background: rgba(255,255,255,0.1);
+    justify-content: flex-start;
+    border-radius: 100px;
+    align-items: center;
+    position: relative;
+    padding: 0 5px;
+    display: flex;
+    height: 40px;
+    width: 900px;
+    margin-top: 6.5%;
+  }
+  
+  .progress-value4 {
+    animation: load4 3s normal forwards;
+    box-shadow: 0 10px 40px -10px #fff;
+    border-radius: 100px;
+    background: #9999FF;
+    height: 30px;
+    width: 0;
+  }
+  
+  @keyframes load4 {
+    0% { width: 0; }
+    100% { width: 30%; }
+  }
+
+  .progress5 {
+    background: rgba(255,255,255,0.1);
+    justify-content: flex-start;
+    border-radius: 100px;
+    align-items: center;
+    position: relative;
+    padding: 0 5px;
+    display: flex;
+    height: 40px;
+    width: 900px;
+    margin-top: 6%;
+  }
+  
+  .progress-value5 {
+    animation: load5 3s normal forwards;
+    box-shadow: 0 10px 40px -10px #fff;
+    border-radius: 100px;
+    background: #fff;
+    height: 30px;
+    width: 0;
+  }
+  
+  @keyframes load5 {
+    0% { width: 0; }
+    100% { width: 100%; }
+  }
+
+  #container5 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: -23%;
+    justify-content: space-between;
+  }
+
+  .menu {
+    margin-left: 1345px;
+    margin-top: 275px;
+    border-radius: 50%;
+    -webkit-transition: -webkit-transform .8s ease-in-out;
+            transition:         transform .8s ease-in-out;
+  }
+.menu:hover {
+    -webkit-transform: rotate(360deg);
+            transform: rotate(360deg);
+  }

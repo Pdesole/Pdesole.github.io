@@ -1,0 +1,117 @@
+@font-face {
+    font-family: TextMeOne;
+    src: url("TextMeOne-Regular.ttf");
+  }
+
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: TextMeOne;
+}
+
+body {
+    background-image: url("image2/bg.png");
+}
+
+input[type=text], textarea, input[type=email] {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    margin-top: 6px;
+    margin-bottom: 16px;
+    margin-right: 0px;
+    margin-left: 0px;
+    resize: vertical;
+  }
+  label{margin-right: 0px;
+    margin-left: 0px;
+    width: 100%;
+    color: #FFF;
+}
+  
+  input[type=submit] {
+    background-color: #2d6c9d;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  input[type=submit]:hover {
+    background-color: #57c0d0;
+  }
+  
+#container6 {
+    box-sizing : border-box;
+    border-radius:5px;
+    padding:20px;
+    width: 100%;
+    max-width: 440px;
+    margin:0 auto;
+    margin-top: 5%;
+    margin-left: 10%;
+  }
+  h1  {
+    color: #FFF;
+    width: 100%;
+  }
+
+#container8 {
+
+    display: flex;
+    margin-top: 4%;
+    justify-content: space-around;
+    flex-direction: column;
+    margin-left: 70%;
+    margin-top: -41.5%;
+}
+
+h2 {
+    color: #FFF;
+    font-size: xx-large;
+}
+
+p {
+  margin-left: 45%;
+  margin-top: 23%;
+}
+
+.snap {
+    margin-left: 35px;
+}
+
+.insta {
+    margin-left: 45px;
+}
+
+.fb {
+    margin-left: -25px;
+}
+
+.linkedin {
+    margin-left: 3px;
+}
+
+#container9 {
+  display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: -16.5%;
+    margin-left: -40px;
+    justify-content: space-between;
+}
+
+.menu {
+  margin-left: 1345px;
+  margin-top: -80px;
+  border-radius: 50%;
+  -webkit-transition: -webkit-transform .8s ease-in-out;
+          transition:         transform .8s ease-in-out;
+}
+.menu:hover {
+  -webkit-transform: rotate(360deg);
+          transform: rotate(360deg);
+}

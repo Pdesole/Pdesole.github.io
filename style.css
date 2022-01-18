@@ -1,0 +1,147 @@
+@font-face {
+    font-family: TextMeOne;
+    src: url("TextMeOne-Regular.ttf");
+  }
+
+  *{
+    margin: 0px;
+    padding: 0px;
+    font-family: TextMeOne;
+  }
+
+  body {
+    background-image: url("image2/bg.png");
+  }
+
+  #conteneur1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 5%;
+    justify-content: space-around;
+    text-align: center;
+}
+
+h5 {
+    font-size: xx-large;
+    margin-left: 0%;
+    margin-top: 40%;
+}
+
+.rectangle-4{
+    width: 535px;
+    height: 245px;
+                  
+    background: #FFFFFF;
+    border: 2px solid #000000;
+    box-sizing: border-box;
+    border-radius: 15%;
+}
+
+.rond-1 {
+    width: 264px;
+  height: 259px;
+  
+  
+  background: #FFFFFF;
+  mix-blend-mode: luminosity;
+  border: 2px solid #000000;
+  border-radius: 1000px;
+  box-sizing: border-box;
+  box-shadow: 0px 9px 4px rgba(0, 0, 0, 0.25);
+}
+
+.img2 {
+    margin-left: 7%;
+    margin-top: -4%;
+}
+
+
+h4{
+    font-family: TextMeOne;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 45px;
+    line-height: 73px;
+    
+    color: #000000;  
+}
+
+  #conteneur2 {
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 4%;
+    justify-content: space-evenly;
+    text-align: center;
+}
+.rectangle-1{
+    width: 295px;
+    height: 385px;
+    
+    background: #FFFFFF;
+    border: 2px solid #000000;
+    box-sizing: border-box;
+    border-radius: 25%;
+    }
+    .rectangle-2{
+        width: 295px;
+        height: 385px;
+        
+        background: #FFFFFF;
+        border: 2px solid #000000;
+        box-sizing: border-box;
+        border-radius: 25%;
+        }
+        .rectangle-3{
+    width: 295px;
+    height: 385px;
+                  
+    background: #FFFFFF;
+    border: 2px solid #000000;
+    box-sizing: border-box;
+    border-radius: 25%;
+            }
+
+
+h1 {
+    font-family: TextMeOne;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 45px;
+    line-height: 73px;
+    
+    color: #000000;
+}
+
+h2 {
+    font-family: TextMeOne;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 45px;
+    line-height: 73px;
+    
+    color: #000000;
+}
+
+h3 {
+    font-family: TextMeOne;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 45px;
+    line-height: 73px;
+    
+    color: #000000;
+}
+
+img {
+    margin-top: 30px;
+}
+
+.fleche1 {
+    margin-left: 1380px;
+    margin-top: -30%;
+  }
+
+ 

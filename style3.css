@@ -1,0 +1,65 @@
+@font-face {
+    font-family: TextMeOne;
+    src: url("TextMeOne-Regular.ttf");
+  }
+
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: TextMeOne;
+}
+
+body {
+    background-image: url("image2/bg.png");
+}
+
+h1 {
+    font-family: TextMeOne;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 35px;
+    line-height: 73px;
+    text-align: center;
+    
+    color: #FFF; 
+}
+
+#conteneur5 {
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: -1%;
+    justify-content: space-between;
+    text-align: center;
+}
+
+ #conteneur6 {
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 4%;
+    justify-content: space-around;
+    text-align: center;
+}
+
+#conteneur7 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: -30%;
+    justify-content: space-between;
+}
+
+.menu {
+    margin-left: 1345px;
+    margin-top: 260px;
+    border-radius: 50%;
+    -webkit-transition: -webkit-transform .8s ease-in-out;
+            transition:         transform .8s ease-in-out;
+  }
+.menu:hover {
+    -webkit-transform: rotate(360deg);
+            transform: rotate(360deg);
+  }
